@@ -5,5 +5,5 @@ matplotlib
 altair
 plotly
 seaborn
-PIL
-Image
+pillow
+
