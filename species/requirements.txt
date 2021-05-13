@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+matplotlib
+altair
+plotly
+seaborn
+PIL
+Image
