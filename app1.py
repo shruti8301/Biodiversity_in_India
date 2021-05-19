@@ -15,7 +15,7 @@ st.markdown("<p style='text-align: left;'>There are more than 45000 species of p
 #st.title('Biodiversity of Species in India')
 @st.cache
 def load_data(nrows):
-    data = pd.read_csv(r'C:\Users\shrut\OneDrive\Desktop\species.csv',nrows=nrows)
+    data = pd.read_csv(r'species.csv',nrows=nrows)
     return data
 #data_load_state = st.text('Loading data...')
 
@@ -31,7 +31,7 @@ st.markdown("<h3 style='text-align: left; color: #FFFFFF; font-family:'Lato'; '>
 st.sidebar.title("Select Visual Charts")
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
 
-data = pd.read_csv(r'C:\Users\shrut\OneDrive\Desktop\species.csv')
+data = pd.read_csv(r'species.csv')
 
 
 chart_visual = st.sidebar.selectbox('Select Charts/Plot type',
@@ -226,7 +226,7 @@ st.markdown("<p style='text-align: left; color: #FFFFFF;'>To visualize the numbe
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv(r'C:\Users\shrut\OneDrive\Desktop\state .csv')
+df = pd.read_csv(r'state.csv')
 
 fig = px.choropleth(
     df,
