@@ -226,7 +226,7 @@ st.markdown("<p style='text-align: left; color: #FFFFFF;'>To visualize the numbe
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv(r'state.csv')
+df = pd.read_csv(r'state .csv')
 
 fig = px.choropleth(
     df,
