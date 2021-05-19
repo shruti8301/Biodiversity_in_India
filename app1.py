@@ -199,7 +199,7 @@ st.markdown("<p style='text-align: left; color: #FFFFFF;'>To visualize the count
 fig = px.histogram(t_data['Status'])
 fig.update_yaxes(showgrid=False)
 st.plotly_chart(fig)
-st.markdown("<h3 style='text-align: left; color: #F9CD5D;'><b>Bar Plot</b></h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: left; color: #F9CD5D;'><b>Polar Bar</b></h3>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: left; color: #FFFFFF;'>To visualize the species with the states they are found in with respect to their percentage in India</p>", unsafe_allow_html=True)
 
 fig = px.bar_polar(t_data, r=t_data['Common_Name'], theta=t_data['State_Found'], color=t_data['Percentage'],
