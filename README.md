@@ -36,6 +36,8 @@ Due to the abstract nature of gathered data, we had multiple options for visual 
 ### Algorithm
 The algorithms used in our project play an important role and affect factors such as computation time and output. An instance would be the data collection technique, for which we used CSV (comma-separated values) instead of dataframe. This influenced the computation time positively as data frames tend to be less effective than CSVs with respect to execution time.
 
+![alt text](https://github.com/shruti8301/Biodiversity_in_India/blob/main/validation.png?raw=true)
+
 ## Website Link💻
 https://bio-species.herokuapp.com/
 
